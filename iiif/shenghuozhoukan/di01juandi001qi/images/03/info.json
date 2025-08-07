@@ -1,0 +1,68 @@
+{
+  "@context": "http://iiif.io/api/image/3/context.json",
+  "extraFormats": [
+    "jpg"
+  ],
+  "extraQualities": [
+    "default"
+  ],
+  "height": 4055,
+  "id": "https://harryleft.github.io/images/shenghuozhoukan/di01juandi001qi/images/03",
+  "profile": "level0",
+  "protocol": "http://iiif.io/api/image",
+  "sizes": [
+    {
+      "height": 507,
+      "width": 362
+    },
+    {
+      "height": 253,
+      "width": 181
+    },
+    {
+      "height": 127,
+      "width": 91
+    },
+    {
+      "height": 63,
+      "width": 45
+    },
+    {
+      "height": 32,
+      "width": 23
+    },
+    {
+      "height": 16,
+      "width": 11
+    },
+    {
+      "height": 8,
+      "width": 6
+    },
+    {
+      "height": 4,
+      "width": 3
+    },
+    {
+      "height": 2,
+      "width": 1
+    },
+    {
+      "height": 1,
+      "width": 1
+    }
+  ],
+  "tiles": [
+    {
+      "height": 512,
+      "scaleFactors": [
+        1,
+        2,
+        4
+      ],
+      "width": 512
+    }
+  ],
+  "type": "ImageService3",
+  "width": 2896
+}

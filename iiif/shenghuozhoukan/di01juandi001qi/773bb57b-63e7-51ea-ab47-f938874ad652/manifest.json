@@ -1,0 +1,332 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://harryleft.github.io/shenghuozhoukan/di01juandi001qi/773bb57b-63e7-51ea-ab47-f938874ad652/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "zh-CN": [
+      "生活周刊 - 第01卷第001期"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "zh-CN": [
+          "Generated from"
+        ]
+      },
+      "value": {
+        "zh-CN": [
+          "第01卷第001期.pdf"
+        ]
+      }
+    },
+    {
+      "label": {
+        "zh-CN": [
+          "来源"
+        ]
+      },
+      "value": {
+        "zh-CN": [
+          "韬奋纪念馆"
+        ]
+      }
+    }
+  ],
+  "summary": {
+    "zh-CN": [
+      "生活周刊 - 第01卷第001期"
+    ]
+  },
+  "rights": "http://rightsstatements.org/vocab/NoC-CR/1.0/",
+  "items": [
+    {
+      "id": "https://harryleft.github.io/canvas/00",
+      "type": "Canvas",
+      "label": {
+        "zh-CN": [
+          "Page 1"
+        ]
+      },
+      "height": 4055,
+      "width": 2896,
+      "items": [
+        {
+          "id": "https://harryleft.github.io/canvas/00/page/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://harryleft.github.io/canvas/00/annotation/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://harryleft.github.io/images/shenghuozhoukan/di01juandi001qi/images/00/full/max/0/default.jpg",
+                "type": "Image",
+                "service": [
+                  {
+                    "id": "https://harryleft.github.io/images/shenghuozhoukan/di01juandi001qi/images/00",
+                    "type": "ImageService3",
+                    "profile": "level0"
+                  }
+                ]
+              },
+              "target": "https://harryleft.github.io/canvas/00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://harryleft.github.io/canvas/01",
+      "type": "Canvas",
+      "label": {
+        "zh-CN": [
+          "Page 2"
+        ]
+      },
+      "height": 4055,
+      "width": 2896,
+      "items": [
+        {
+          "id": "https://harryleft.github.io/canvas/01/page/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://harryleft.github.io/canvas/01/annotation/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://harryleft.github.io/images/shenghuozhoukan/di01juandi001qi/images/01/full/max/0/default.jpg",
+                "type": "Image",
+                "service": [
+                  {
+                    "id": "https://harryleft.github.io/images/shenghuozhoukan/di01juandi001qi/images/01",
+                    "type": "ImageService3",
+                    "profile": "level0"
+                  }
+                ]
+              },
+              "target": "https://harryleft.github.io/canvas/01"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://harryleft.github.io/canvas/02",
+      "type": "Canvas",
+      "label": {
+        "zh-CN": [
+          "Page 3"
+        ]
+      },
+      "height": 4055,
+      "width": 2896,
+      "items": [
+        {
+          "id": "https://harryleft.github.io/canvas/02/page/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://harryleft.github.io/canvas/02/annotation/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://harryleft.github.io/images/shenghuozhoukan/di01juandi001qi/images/02/full/max/0/default.jpg",
+                "type": "Image",
+                "service": [
+                  {
+                    "id": "https://harryleft.github.io/images/shenghuozhoukan/di01juandi001qi/images/02",
+                    "type": "ImageService3",
+                    "profile": "level0"
+                  }
+                ]
+              },
+              "target": "https://harryleft.github.io/canvas/02"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://harryleft.github.io/canvas/03",
+      "type": "Canvas",
+      "label": {
+        "zh-CN": [
+          "Page 4"
+        ]
+      },
+      "height": 4055,
+      "width": 2896,
+      "items": [
+        {
+          "id": "https://harryleft.github.io/canvas/03/page/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://harryleft.github.io/canvas/03/annotation/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://harryleft.github.io/images/shenghuozhoukan/di01juandi001qi/images/03/full/max/0/default.jpg",
+                "type": "Image",
+                "service": [
+                  {
+                    "id": "https://harryleft.github.io/images/shenghuozhoukan/di01juandi001qi/images/03",
+                    "type": "ImageService3",
+                    "profile": "level0"
+                  }
+                ]
+              },
+              "target": "https://harryleft.github.io/canvas/03"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://harryleft.github.io/canvas/04",
+      "type": "Canvas",
+      "label": {
+        "zh-CN": [
+          "Page 5"
+        ]
+      },
+      "height": 4055,
+      "width": 2896,
+      "items": [
+        {
+          "id": "https://harryleft.github.io/canvas/04/page/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://harryleft.github.io/canvas/04/annotation/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://harryleft.github.io/images/shenghuozhoukan/di01juandi001qi/images/04/full/max/0/default.jpg",
+                "type": "Image",
+                "service": [
+                  {
+                    "id": "https://harryleft.github.io/images/shenghuozhoukan/di01juandi001qi/images/04",
+                    "type": "ImageService3",
+                    "profile": "level0"
+                  }
+                ]
+              },
+              "target": "https://harryleft.github.io/canvas/04"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://harryleft.github.io/canvas/05",
+      "type": "Canvas",
+      "label": {
+        "zh-CN": [
+          "Page 6"
+        ]
+      },
+      "height": 4055,
+      "width": 2896,
+      "items": [
+        {
+          "id": "https://harryleft.github.io/canvas/05/page/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://harryleft.github.io/canvas/05/annotation/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://harryleft.github.io/images/shenghuozhoukan/di01juandi001qi/images/05/full/max/0/default.jpg",
+                "type": "Image",
+                "service": [
+                  {
+                    "id": "https://harryleft.github.io/images/shenghuozhoukan/di01juandi001qi/images/05",
+                    "type": "ImageService3",
+                    "profile": "level0"
+                  }
+                ]
+              },
+              "target": "https://harryleft.github.io/canvas/05"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://harryleft.github.io/canvas/06",
+      "type": "Canvas",
+      "label": {
+        "zh-CN": [
+          "Page 7"
+        ]
+      },
+      "height": 4055,
+      "width": 2896,
+      "items": [
+        {
+          "id": "https://harryleft.github.io/canvas/06/page/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://harryleft.github.io/canvas/06/annotation/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://harryleft.github.io/images/shenghuozhoukan/di01juandi001qi/images/06/full/max/0/default.jpg",
+                "type": "Image",
+                "service": [
+                  {
+                    "id": "https://harryleft.github.io/images/shenghuozhoukan/di01juandi001qi/images/06",
+                    "type": "ImageService3",
+                    "profile": "level0"
+                  }
+                ]
+              },
+              "target": "https://harryleft.github.io/canvas/06"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://harryleft.github.io/canvas/07",
+      "type": "Canvas",
+      "label": {
+        "zh-CN": [
+          "Page 8"
+        ]
+      },
+      "height": 4055,
+      "width": 2896,
+      "items": [
+        {
+          "id": "https://harryleft.github.io/canvas/07/page/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://harryleft.github.io/canvas/07/annotation/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://harryleft.github.io/images/shenghuozhoukan/di01juandi001qi/images/07/full/max/0/default.jpg",
+                "type": "Image",
+                "service": [
+                  {
+                    "id": "https://harryleft.github.io/images/shenghuozhoukan/di01juandi001qi/images/07",
+                    "type": "ImageService3",
+                    "profile": "level0"
+                  }
+                ]
+              },
+              "target": "https://harryleft.github.io/canvas/07"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

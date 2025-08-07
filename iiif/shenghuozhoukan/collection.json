@@ -1,0 +1,21 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://harryleft.github.io/shenghuozhoukan/collection.json",
+  "type": "Collection",
+  "label": {
+    "zh-CN": [
+      "生活周刊"
+    ]
+  },
+  "items": [
+    {
+      "id": "https://harryleft.github.io/shenghuozhoukan/di01juandi001qi/773bb57b-63e7-51ea-ab47-f938874ad652/manifest.json",
+      "label": {
+        "zh-CN": [
+          "生活周刊 - 第01卷第001期"
+        ]
+      },
+      "type": "Manifest"
+    }
+  ]
+}
