@@ -3,16 +3,52 @@
   "id": "https://harryleft.github.io/iiif/shenghuozhoukan/collection.json",
   "type": "Collection",
   "label": {
-    "zh-CN": [
+    "zh": [
       "生活周刊"
     ]
   },
   "items": [
     {
-      "id": "https://harryleft.github.io/iiif/shenghuozhoukan/di01juandi001qi/773bb57b-63e7-51ea-ab47-f938874ad652/manifest.json",
+      "id": "https://harryleft.github.io/iiif/shenghuozhoukan/di01juandi002qi/manifest.json",
       "label": {
-        "zh-CN": [
+        "zh": [
+          "生活周刊 - 第01卷第002期"
+        ]
+      },
+      "type": "Manifest"
+    },
+    {
+      "id": "https://harryleft.github.io/iiif/shenghuozhoukan/di01juandi003qi/manifest.json",
+      "label": {
+        "zh": [
+          "生活周刊 - 第01卷第003期"
+        ]
+      },
+      "type": "Manifest"
+    },
+    {
+      "id": "https://harryleft.github.io/iiif/shenghuozhoukan/di01juandi004qi/manifest.json",
+      "label": {
+        "zh": [
+          "生活周刊 - 第01卷第004期"
+        ]
+      },
+      "type": "Manifest"
+    },
+    {
+      "id": "https://harryleft.github.io/iiif/shenghuozhoukan/di01juandi001qi/manifest.json",
+      "label": {
+        "zh": [
           "生活周刊 - 第01卷第001期"
+        ]
+      },
+      "type": "Manifest"
+    },
+    {
+      "id": "https://harryleft.github.io/iiif/shenghuozhoukan/di01juandi005qi/manifest.json",
+      "label": {
+        "zh": [
+          "生活周刊 - 第01卷第005期"
         ]
       },
       "type": "Manifest"

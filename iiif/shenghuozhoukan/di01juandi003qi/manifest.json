@@ -1,0 +1,378 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://harryleft.github.io/iiif/shenghuozhoukan/di01juandi003qi/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "zh": [
+      "生活周刊 - 第01卷第003期"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "zh": [
+          "卷/期"
+        ]
+      },
+      "value": {
+        "zh": [
+          "第01卷第003期"
+        ]
+      }
+    },
+    {
+      "label": {
+        "zh": [
+          "来源"
+        ]
+      },
+      "value": {
+        "zh": [
+          "韬奋纪念馆"
+        ]
+      }
+    },
+    {
+      "label": {
+        "zh": [
+          "来源文件"
+        ]
+      },
+      "value": {
+        "zh": [
+          "第01卷第003期"
+        ]
+      }
+    }
+  ],
+  "requiredStatement": {
+    "label": {
+      "zh-CN": [
+        "提供者"
+      ]
+    },
+    "value": {
+      "zh-CN": [
+        "本资源来自韬奋纪念馆，本清单由【不知道起什么名字】团队基于转换为IIIF，供上海图书馆开放数据竞赛研究与展示使用。"
+      ]
+    }
+  },
+  "viewingDirection": "left-to-right",
+  "license": "http://rightsstatements.org/vocab/CNE/1.0/",
+  "provider": [
+    {
+      "id": "https://zoutaofen.com",
+      "type": "Agent",
+      "label": {
+        "zh-CN": [
+          "韬奋纪念馆"
+        ]
+      }
+    }
+  ],
+  "seeAlso": [
+    {
+      "id": "https://www.zoutaofen.com/resource/show/101.html",
+      "type": "Dataset",
+      "label": {
+        "zh-CN": [
+          "韬奋纪念馆中的主要刊物"
+        ]
+      },
+      "format": "text/html"
+    }
+  ],
+  "behavior": [
+    "paged"
+  ],
+  "items": [
+    {
+      "id": "https://harryleft.github.io/iiif/canvas/00",
+      "type": "Canvas",
+      "label": {
+        "zh": [
+          "Page 1"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://harryleft.github.io/iiif/shenghuozhoukan/di01juandi003qi/images/00/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "id": "https://harryleft.github.io/iiif/shenghuozhoukan/di01juandi003qi/images/00",
+              "type": "ImageService3",
+              "profile": "level0"
+            }
+          ],
+          "format": "image/jpeg"
+        }
+      ],
+      "items": [
+        {
+          "id": "https://harryleft.github.io/iiif/canvas/00/page/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://harryleft.github.io/iiif/canvas/00/annotation/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://harryleft.github.io/iiif/shenghuozhoukan/di01juandi003qi/images/00/full/max/0/default.jpg",
+                "type": "Image",
+                "service": [
+                  {
+                    "id": "https://harryleft.github.io/iiif/shenghuozhoukan/di01juandi003qi/images/00",
+                    "type": "ImageService3",
+                    "profile": "level0"
+                  }
+                ]
+              },
+              "target": "https://harryleft.github.io/iiif/canvas/00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://harryleft.github.io/iiif/canvas/01",
+      "type": "Canvas",
+      "label": {
+        "zh": [
+          "Page 2"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://harryleft.github.io/iiif/shenghuozhoukan/di01juandi003qi/images/01/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "id": "https://harryleft.github.io/iiif/shenghuozhoukan/di01juandi003qi/images/01",
+              "type": "ImageService3",
+              "profile": "level0"
+            }
+          ],
+          "format": "image/jpeg"
+        }
+      ],
+      "items": [
+        {
+          "id": "https://harryleft.github.io/iiif/canvas/01/page/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://harryleft.github.io/iiif/canvas/01/annotation/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://harryleft.github.io/iiif/shenghuozhoukan/di01juandi003qi/images/01/full/max/0/default.jpg",
+                "type": "Image",
+                "service": [
+                  {
+                    "id": "https://harryleft.github.io/iiif/shenghuozhoukan/di01juandi003qi/images/01",
+                    "type": "ImageService3",
+                    "profile": "level0"
+                  }
+                ]
+              },
+              "target": "https://harryleft.github.io/iiif/canvas/01"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://harryleft.github.io/iiif/canvas/02",
+      "type": "Canvas",
+      "label": {
+        "zh": [
+          "Page 3"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://harryleft.github.io/iiif/shenghuozhoukan/di01juandi003qi/images/02/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "id": "https://harryleft.github.io/iiif/shenghuozhoukan/di01juandi003qi/images/02",
+              "type": "ImageService3",
+              "profile": "level0"
+            }
+          ],
+          "format": "image/jpeg"
+        }
+      ],
+      "items": [
+        {
+          "id": "https://harryleft.github.io/iiif/canvas/02/page/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://harryleft.github.io/iiif/canvas/02/annotation/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://harryleft.github.io/iiif/shenghuozhoukan/di01juandi003qi/images/02/full/max/0/default.jpg",
+                "type": "Image",
+                "service": [
+                  {
+                    "id": "https://harryleft.github.io/iiif/shenghuozhoukan/di01juandi003qi/images/02",
+                    "type": "ImageService3",
+                    "profile": "level0"
+                  }
+                ]
+              },
+              "target": "https://harryleft.github.io/iiif/canvas/02"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://harryleft.github.io/iiif/canvas/03",
+      "type": "Canvas",
+      "label": {
+        "zh": [
+          "Page 4"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://harryleft.github.io/iiif/shenghuozhoukan/di01juandi003qi/images/03/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "id": "https://harryleft.github.io/iiif/shenghuozhoukan/di01juandi003qi/images/03",
+              "type": "ImageService3",
+              "profile": "level0"
+            }
+          ],
+          "format": "image/jpeg"
+        }
+      ],
+      "items": [
+        {
+          "id": "https://harryleft.github.io/iiif/canvas/03/page/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://harryleft.github.io/iiif/canvas/03/annotation/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://harryleft.github.io/iiif/shenghuozhoukan/di01juandi003qi/images/03/full/max/0/default.jpg",
+                "type": "Image",
+                "service": [
+                  {
+                    "id": "https://harryleft.github.io/iiif/shenghuozhoukan/di01juandi003qi/images/03",
+                    "type": "ImageService3",
+                    "profile": "level0"
+                  }
+                ]
+              },
+              "target": "https://harryleft.github.io/iiif/canvas/03"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://harryleft.github.io/iiif/canvas/04",
+      "type": "Canvas",
+      "label": {
+        "zh": [
+          "Page 5"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://harryleft.github.io/iiif/shenghuozhoukan/di01juandi003qi/images/04/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "id": "https://harryleft.github.io/iiif/shenghuozhoukan/di01juandi003qi/images/04",
+              "type": "ImageService3",
+              "profile": "level0"
+            }
+          ],
+          "format": "image/jpeg"
+        }
+      ],
+      "items": [
+        {
+          "id": "https://harryleft.github.io/iiif/canvas/04/page/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://harryleft.github.io/iiif/canvas/04/annotation/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://harryleft.github.io/iiif/shenghuozhoukan/di01juandi003qi/images/04/full/max/0/default.jpg",
+                "type": "Image",
+                "service": [
+                  {
+                    "id": "https://harryleft.github.io/iiif/shenghuozhoukan/di01juandi003qi/images/04",
+                    "type": "ImageService3",
+                    "profile": "level0"
+                  }
+                ]
+              },
+              "target": "https://harryleft.github.io/iiif/canvas/04"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://harryleft.github.io/iiif/canvas/05",
+      "type": "Canvas",
+      "label": {
+        "zh": [
+          "Page 6"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://harryleft.github.io/iiif/shenghuozhoukan/di01juandi003qi/images/05/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "id": "https://harryleft.github.io/iiif/shenghuozhoukan/di01juandi003qi/images/05",
+              "type": "ImageService3",
+              "profile": "level0"
+            }
+          ],
+          "format": "image/jpeg"
+        }
+      ],
+      "items": [
+        {
+          "id": "https://harryleft.github.io/iiif/canvas/05/page/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://harryleft.github.io/iiif/canvas/05/annotation/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://harryleft.github.io/iiif/shenghuozhoukan/di01juandi003qi/images/05/full/max/0/default.jpg",
+                "type": "Image",
+                "service": [
+                  {
+                    "id": "https://harryleft.github.io/iiif/shenghuozhoukan/di01juandi003qi/images/05",
+                    "type": "ImageService3",
+                    "profile": "level0"
+                  }
+                ]
+              },
+              "target": "https://harryleft.github.io/iiif/canvas/05"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

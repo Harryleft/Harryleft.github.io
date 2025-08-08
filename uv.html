@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0"/>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/universalviewer@4.2.1/dist/uv.css"/>
+  <script src="https://cdn.jsdelivr.net/npm/universalviewer@4.2.1/dist/umd/UV.js"></script>
+  <style>
+    html,body{height:100%;margin:0;overflow:hidden}
+    #uv{width:100%;height:100%}
+  </style>
+</head>
+<body>
+  <div id="uv" class="uv"></div>
+  <script>
+    // 1) URL 适配器读取 hash 中的 manifest（#?manifest=...）
+    const urlAdapter = new UV.IIIFURLAdapter();
+    console.log('URL适配器初始化完成');
+
+    // 2) 先挂 configure（很关键：在 init 之前监听）
+    //   这样能稳定给 OSD 设置首帧策略
+    let uv;
+    function installConfigureHook(viewer){
+      console.log('安装配置钩子');
+      viewer.on("configure", ({ config, cb }) => {
+        console.log('配置事件触发');
+        cb({
+          ...config,
+          modules: {
+            ...(config?.modules||{}),
+            openseadragonCenterPanel: {
+              ...(config?.modules?.openseadragonCenterPanel||{}),
+              options: {
+                ...(config?.modules?.openseadragonCenterPanel?.options||{}),
+                defaultZoomLevel: 0,
+                visibilityRatio: 1,
+                constrainDuringPan: true,
+                immediateRender: true,
+                maxZoomPixelRatio: 2
+              }
+            }
+          }
+        });
+      });
+    }
+
+    // 3) 生成初始数据并初始化
+    const data = urlAdapter.getInitialData({ embedded: true });
+    console.log('初始数据:', data);
+    // const uv = UV.init("uv", data);
+    try {
+      uv = UV.init("uv", data);
+      console.log('UV初始化成功');
+      urlAdapter.bindTo(uv);
+      console.log('URL适配器绑定完成');
+    } catch(err) {
+      console.error('UV初始化失败:', err);
+    }
+
+    // 4) 兜底：窗口尺寸变化时让 viewer 适配
+    window.addEventListener('resize', ()=> { try{ uv.resize(); }catch(e){} });
+  </script>
+</body>
+</html>
